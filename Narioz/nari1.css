@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
+body {
+    margin: 1.3em;
+    background-color: rgb(197, 179, 207);
+    font-family: "Poppins", sans-serif;
+  }
+
+nav{
+    scale: 1.032;
+    margin-top: -1.8rem;
+    z-index: 1000;
+}
+
+div.carousel-carousel-slider{
+    margin-top: 5rem;
+}
+
+footer{
+    scale: 1.05;
+    margin-bottom: -5rem;
+}
+
+div.container{
+    scale: 1.1;
+}
+
+.product{
+    margin-left: 2.2em;
+}
+
+.card{
+    border-radius: 0.2rem;
+    transition:0.5s;
+    
+}
+
+.card:hover{
+    transform:scale(1.05);
+    display:inline-block;
+    animation-duration: 0.5s;
+    
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(189, 117, 241, 0.87);
+}
+
+svg{
+    margin-top: 0.5em;
+    margin-left: -0.7em;
+}
